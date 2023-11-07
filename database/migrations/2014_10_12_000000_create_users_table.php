@@ -20,6 +20,20 @@ return new class extends Migration
             $table->rememberToken();
             $table->timestamps();
             $table->unsignedBigInteger('role_id')->nullable();
+            $table->string('col1')->nullable();
+            $table->string('col2')->nullable();
+            $table->string('col3')->nullable();
+            $table->string('col4')->nullable();
+            $table->string('col5')->nullable();
+            $table->string('col6')->nullable();
+            $table->string('col7')->nullable();
+            $table->string('col8')->nullable();
+            $table->string('col9')->nullable();
+            $table->string('col10')->nullable();
+            $table->string('col11')->nullable();
+            $table->string('col12')->nullable();
+            $table->string('col13')->nullable();
+            $table->string('col14')->nullable();
         });
     }
 
